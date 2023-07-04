@@ -298,14 +298,6 @@
     .rodapé-pt1 {
       flex-direction: column;
     }
-  
-    .coluna1,
-    .coluna2,
-    .coluna3,
-    .coluna4 {
-      flex-basis: 100%;
-      margin-bottom: 30px;
-    }
   }
   
   @media screen and (max-width: 576px) {
@@ -313,12 +305,11 @@
       text-align: center;
     }
 
-    .rodapé-pt2 {
+    .texto-rodapé-pt2 {
       flex-wrap: wrap;
     }
 
     .rodapé-pt1 {
-      justify-content: center;
       align-items: center;
     }
   }
